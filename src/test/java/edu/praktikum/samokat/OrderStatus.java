@@ -34,7 +34,7 @@ public class OrderStatus {
 
         driver.get("https://qa-scooter.praktikum-services.ru/");
 
-        // Получить текст
+        // Получить текст (чтобы не забыть)
         //String test = driver.findElement(By.xpath(".//button[@class='Header_Link__1TAG7']")).getText();
 
         WebElement buttonStatusOrder = driver.findElement(By.xpath(".//button[@class='Header_Link__1TAG7']"));
